@@ -9,7 +9,6 @@ type NextDayProps = {
 
 export default class NextDay extends React.PureComponent<NextDayProps> {
   render(): React.ReactNode {
-    console.log(this.props.weather);
     if (!this.props.weather) {
       return null;
     }
