@@ -1,0 +1,26 @@
+@import 'variables.less';
+@import 'typography.less';
+
+.today {
+  width: 100%;
+  height: calc(100% - 0.5rem);
+  background-color: @background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.75rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  .weather-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: auto;
+      height: 18.75rem;
+    }
+    .temp {
+      font-family: 'Violenta';
+    }
+  }
+}

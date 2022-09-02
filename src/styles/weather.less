@@ -1,0 +1,20 @@
+@import 'variables.less';
+
+.weather-container {
+  width: 100%;
+  height: calc(100% - @tab-height);
+  background-color: #fff;
+  border: 0.5rem solid #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.5rem #d6e1e8;
+  .weather-today {
+    height: 60%;
+    width: 100%;
+  }
+  .weather-next-days {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
